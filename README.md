@@ -3,12 +3,16 @@
 ## 🧑‍💻 Takım Üyeleri
 
 | İsim | Rol |
-|------|-----|
-| Beyzanur Eker | Product Owner |
-| Hatice Kandemir | Developer |
-| Ayşe Dündar | Developer |
-| Emre Dumbo | Developer |
-| Sefa Duman | Scrum Master |
+## 🧑‍💻 Takım Üyeleri
+
+| İsim             | Rol             | GitHub |
+|------------------|------------------|--------|
+| Beyzanur Eker    | Product Owner    | [@Beyzanurekerr]([https://github.com/beyzanureker](https://github.com/Beyzanurekerr)) |
+| Hatice Kandemir  | Developer        | [@HaticeKandemir]([https://github.com/haticekandemir](https://github.com/HaticeKandemir)) |
+| Ayşe Dündar      | Developer        | [@Ayse-D](https://github.com/Ayse-D) |
+| Emre Dumbo       | Developer        | [@EmreDumbo](https://github.com/EmreDumbo) |
+| Sefa Duman       | Scrum Master     | [@sefadumann](https://github.com/sefadumann) |
+
 
 ## 📝 Proje Başlığı  
 **💊 İlaç Etkileşim ve Yan Etki Kontrol Sistemi**
