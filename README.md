@@ -1,42 +1,44 @@
-# 🧠 YZTA Bootcamp – Takım 23
+# 🧠 YZTA Bootcamp – Takım 25
 
 ## 📝 Proje Başlığı  
-**Eğitimde Veri Destekli Öğrenci Takip ve Geri Bildirim Sistemi**
+**💊 İlaç Etkileşim ve Yan Etki Kontrol Sistemi**
 
-## 🎯 Problem Tanımı  
-Günümüzde öğretmenlerin öğrencilerin akademik gelişim süreçlerini bireysel olarak takip etmesi zorlaşmaktadır.
-Bu durum, özellikle kalabalık sınıflarda geri kalma riskini artırmakta ve kişiselleştirilmiş yönlendirme yapılamamasına neden olmaktadır.
-Bu projede, öğrencilerin geçmiş sınav sonuçlarına ve konu performansına göre analiz yapan, grafiksel çıktı üreten ve öğretmene öneri sunan bir sistem geliştirilecektir.
+## 📌 Proje Tanımı  
+Bu proje, hastaların veya doktorların kullandıkları ilaçları sisteme girmeleriyle birlikte, ilaçlar arasındaki potansiyel tehlikeli etkileşimleri ve yaygın yan etkileri analiz eden, yapay zekâ destekli bir karar destek sistemi geliştirmeyi hedefler.
 
-## 🎯 Bootcamp Amacıyla Kapsam  
-- Yalnızca **gerçekçi ve basit veri** kullanımı hedeflenmiştir.  
-- Ürünümüz bir MVP’dir: az ama işe yarayan özellik içerir.  
-- Kullanıcı odağında, küçük ama anlamlı bir deneysel model geliştirilecektir.  
+## 🎯 Hedef Kitle  
+- Polifarmasi (birden çok ilaç kullanan) hastalar  
+- Yaşlı bireyler  
+- Doktorlar ve eczacılar
 
-## 📌 Hedef Kitle  
-- Sınıf öğretmenleri / branş öğretmenleri  
-- Eğitim yöneticileri (gözlem amaçlı)
+## 👣 Kullanıcı Akışı  
+1. Kullanıcı, kullandığı ilaçların isimlerini arama kutusuna yazar.  
+2. Sistem, bu ilaçları büyük bir etkileşim veritabanı ile karşılaştırır.  
+3. Yapay zekâ modülü, literatür ve veri kaynaklarından bilgi çıkarımı yapar.  
+4. Kullanıcıya anlaşılır uyarılar sunar:  
+   > “A ilacı ile B ilacı arasında Ciddi düzeyde bir etkileşim riski vardır. Kanama riskini artırabilir. Lütfen doktorunuza danışın.”
 
-## 🧩 Proje Özeti (Sprint 1)
+## 🔍 Açık Veri Setleri  
+- [Drug-Drug Interaction Database (DDInter)](https://github.com/zzxslp/DDInter)  
+- [FDA Adverse Event Reporting System (FAERS)](https://www.fda.gov/drugs/fda-adverse-event-reporting-system-faers)
 
-| Adım | Açıklama |
-|------|----------|
-| 🎯 Proje Alanı | Eğitim |
-| 🔍 Sorun Tanımı | Öğrencilerin sınav analizinin öğretmen tarafından manuel yapılması zorluk yaratıyor. |
-| 📊 Çözüm Önerisi | Öğrencilerin notlarına göre grafik oluşturan ve dikkat edilmesi gereken noktaları vurgulayan bir uygulama |
-| 💾 Veri Kaynağı | Kaggle – Students Performance Data |
-| 🧪 İlk Deneme | CSV verisi ile ortalama hesaplama + matplotlib ile grafik denemesi yapılmıştır. |
-| 🖥️ Teknolojiler | Python, Pandas, Matplotlib, Streamlit |
-| 🧠 Model | İlk etapta model değil, kural tabanlı analiz ve görselleştirme içerir |
+## 🤖 Kullanılan Yapay Zekâ Teknikleri
 
-## 🧑‍💻 Takım Üyeleri ve Roller
+| Teknik | Açıklama |
+|--------|----------|
+| 🧠 Doğal Dil İşleme (NLP) | İlaç isimleri ve tıbbi metinleri anlayarak bilgi çıkarımı yapmak |
+| 🌐 Bilgi Grafikleri (Knowledge Graphs) | İlaçlar arası ilişkileri modellemek ve sorgulamak |
+| 📈 Örüntü Tanıma | Etkileşim geçmişlerinde tehlikeli örüntüleri tespit etmek |
+| 💬 LLM (Gemini) | Uzun etkileşim raporlarını sade ve anlaşılır bir dile çevirmek |
 
-| İsim | Rol | Sorumluluk |
-|------|-----|-------------|
-| Mükerrem Temelli | Veri Bilimci | Veri analizi, grafikleme, model önerileri |
-| [İsim] | Geliştirici | Arayüz geliştirme (Streamlit) |
-| [İsim] | PO | Ürün yönü, kullanıcı senaryosu |
-| [İsim] | Scrum Master | Görev takibi, GitHub düzeni |
+## 🧑‍💻 Takım Üyeleri
+
+| İsim | Rol |
+|------|-----|
+| Mükerrem Temelli | Veri Bilimci |
+| [İsim] | Fullstack Geliştirici |
+| [İsim] | PO (Ürün Sahibi) |
+| [İsim] | Scrum Master |
 
 ## 📁 Klasör Yapısı
 
@@ -45,21 +47,23 @@ yzta-team23/
 ├── notebooks/
 ├── app/
 ├── images/
-├── sprint1-report.md
-└── README.md
+├── README.md
+└── sprint1-report.md
 
-## 📅 Sprint 1 Hedefi
+## 🛠️ Sprint 1 Hedefleri (20 Haziran – 6 Temmuz)
 
-- [x] Proje alanı ve sorun tanımı netleştirildi  
-- [x] Takım içi roller belirlendi  
-- [x] Açık veri seti ile analiz denemesi yapıldı  
-- [x] İlk grafik üretildi  
-- [ ] Streamlit demo sayfası tamamlanıyor  
-- [ ] GitHub’a tüm bileşenlerin düzenli yüklenmesi  
-- [ ] Sprint 1 raporu hazırlanacak
+- [x] Proje fikri belirlendi  
+- [x] Açık veri kaynakları araştırıldı  
+- [x] NLP için örnek ilaç isimleriyle test yapıldı  
+- [ ] Streamlit tabanlı demo geliştiriliyor  
+- [ ] GitHub dokümantasyonu tamamlanacak  
 
-## 🔗 Kaynaklar
+## 📌 Notlar
 
-- YZTA Bootcamp kılavuzu PDF  
-- Açılış Yayını (20 Haziran) YouTube  
-- Kaggle veri seti: Students Performance Data
+- Bu ürün MVP niteliğindedir (Minimum Viable Product).  
+- Nihai hedef: kullanıcıya hızlı, açık ve doğru uyarılar sunan basit bir karar destek aracı geliştirmek.
+
+## 📜 Lisans & Etik  
+Kullanılan tüm veri setleri kamuya açık kaynaklardan alınmıştır.  
+Sistem tanı koymaz, sadece bilgilendirici analiz sunar.
+
