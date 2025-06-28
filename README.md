@@ -34,10 +34,11 @@ Bu proje, hastaların veya doktorların kullandıkları ilaçları sisteme girme
 
 | İsim | Rol |
 |------|-----|
-| Mükerrem Temelli | Veri Bilimci |
-| [İsim] | Fullstack Geliştirici |
-| [İsim] | PO (Ürün Sahibi) |
-| [İsim] | Scrum Master |
+| SEFA DUMAN | Scrum Master |
+| Beyzanur Eker | Product Owner |
+| Hatice Kandemir | Developer |
+| Ayşe Dündar | Developer |
+| Emre Dumbo | Developer |
 
 ## 📁 Klasör Yapısı
 
@@ -53,7 +54,7 @@ yzta-team23/
 
 - [x] Proje fikri belirlendi  
 - [x] Açık veri kaynakları araştırıldı  
-- [x] NLP için örnek ilaç isimleriyle test yapıldı  
+- [ ] NLP için örnek ilaç isimleriyle test yapıldı  
 - [ ] Streamlit tabanlı demo geliştiriliyor  
 - [ ] GitHub dokümantasyonu tamamlanacak  
 
