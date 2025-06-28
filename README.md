@@ -7,8 +7,8 @@
 
 | İsim             | Rol             | GitHub |
 |------------------|------------------|--------|
-| Beyzanur Eker    | Product Owner    | [@Beyzanurekerr]((https://github.com/Beyzanurekerr)) |
-| Hatice Kandemir  | Developer        | [@HaticeKandemir]((https://github.com/HaticeKandemir)) |
+| Beyzanur Eker    | Product Owner    | [@Beyzanurekerr](https://github.com/Beyzanurekerr) |
+| Hatice Kandemir  | Developer        | [@HaticeKandemir](https://github.com/HaticeKandemir) |
 | Ayşe Dündar      | Developer        | [@Ayse-D](https://github.com/Ayse-D) |
 | Emre Dumbo       | Developer        | [@EmreDumbo](https://github.com/EmreDumbo) |
 | Sefa Duman       | Scrum Master     | [@sefadumann](https://github.com/sefadumann) |
