@@ -1,8 +1,6 @@
 # 🧠 YZTA Bootcamp – Takım 25
 
-## 🧑‍💻 Takım Üyeleri
 
-| İsim | Rol |
 ## 🧑‍💻 Takım Üyeleri
 
 | İsim             | Rol             | GitHub |
@@ -14,16 +12,21 @@
 | Sefa Duman       | Scrum Master     | [@sefadumann](https://github.com/sefadumann) |
 
 
+
 ## 📝 Proje Başlığı  
+
 **💊 İlaç Etkileşim ve Yan Etki Kontrol Sistemi**
+
 
 ## 📌 Proje Tanımı  
 Bu proje, hastaların veya doktorların kullandıkları ilaçları sisteme girmeleriyle birlikte, ilaçlar arasındaki potansiyel tehlikeli etkileşimleri ve yaygın yan etkileri analiz eden, yapay zekâ destekli bir karar destek sistemi geliştirmeyi hedefler.
+
 
 ## 🎯 Hedef Kitle  
 - Polifarmasi (birden çok ilaç kullanan) hastalar  
 - Yaşlı bireyler  
 - Doktorlar ve eczacılar
+
 
 ## 👣 Kullanıcı Akışı  
 1. Kullanıcı, kullandığı ilaçların isimlerini arama kutusuna yazar.  
@@ -32,8 +35,10 @@ Bu proje, hastaların veya doktorların kullandıkları ilaçları sisteme girme
 4. Kullanıcıya anlaşılır uyarılar sunar:  
    > “A ilacı ile B ilacı arasında Ciddi düzeyde bir etkileşim riski vardır. Kanama riskini artırabilir. Lütfen doktorunuza danışın.”
 
+
 ## 🔍 Açık Veri Setleri  
 - [Ilacprospektusu.com - İlaç Prospektüsü](/www.ilacprospektusu.com/ilac)  
+
 
 ## 🤖 Kullanılan Yapay Zekâ Teknikleri
 
@@ -55,6 +60,7 @@ yzta-team23/
 ├── README.md
 └── sprint1-report.md
 
+
 ## 🛠️ Sprint 1 Hedefleri (20 Haziran – 6 Temmuz)
 
 - [x] Proje fikri belirlendi  
@@ -63,10 +69,12 @@ yzta-team23/
 - [ ] Streamlit tabanlı demo geliştiriliyor  
 - [ ] GitHub dokümantasyonu tamamlanacak  
 
+
 ## 📌 Notlar
 
 - Bu ürün MVP niteliğindedir (Minimum Viable Product).  
 - Nihai hedef: kullanıcıya hızlı, açık ve doğru uyarılar sunan basit bir karar destek aracı geliştirmek.
+
 
 ## 📜 Lisans & Etik  
 Kullanılan tüm veri setleri kamuya açık kaynaklardan alınmıştır.  
