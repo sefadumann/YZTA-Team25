@@ -4,11 +4,11 @@
 
 | İsim | Rol |
 |------|-----|
-| SEFA DUMAN | Scrum Master |
 | Beyzanur Eker | Product Owner |
 | Hatice Kandemir | Developer |
 | Ayşe Dündar | Developer |
 | Emre Dumbo | Developer |
+| Sefa Duman | Scrum Master |
 
 ## 📝 Proje Başlığı  
 **💊 İlaç Etkileşim ve Yan Etki Kontrol Sistemi**
