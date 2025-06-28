@@ -1,5 +1,15 @@
 # 🧠 YZTA Bootcamp – Takım 25
 
+## 🧑‍💻 Takım Üyeleri
+
+| İsim | Rol |
+|------|-----|
+| SEFA DUMAN | Scrum Master |
+| Beyzanur Eker | Product Owner |
+| Hatice Kandemir | Developer |
+| Ayşe Dündar | Developer |
+| Emre Dumbo | Developer |
+
 ## 📝 Proje Başlığı  
 **💊 İlaç Etkileşim ve Yan Etki Kontrol Sistemi**
 
@@ -30,15 +40,6 @@ Bu proje, hastaların veya doktorların kullandıkları ilaçları sisteme girme
 | 📈 Örüntü Tanıma | Etkileşim geçmişlerinde tehlikeli örüntüleri tespit etmek |
 | 💬 LLM (Gemini) | Uzun etkileşim raporlarını sade ve anlaşılır bir dile çevirmek |
 
-## 🧑‍💻 Takım Üyeleri
-
-| İsim | Rol |
-|------|-----|
-| SEFA DUMAN | Scrum Master |
-| Beyzanur Eker | Product Owner |
-| Hatice Kandemir | Developer |
-| Ayşe Dündar | Developer |
-| Emre Dumbo | Developer |
 
 ## 📁 Klasör Yapısı
 
