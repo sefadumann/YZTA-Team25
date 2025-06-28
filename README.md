@@ -19,8 +19,7 @@ Bu proje, hastaların veya doktorların kullandıkları ilaçları sisteme girme
    > “A ilacı ile B ilacı arasında Ciddi düzeyde bir etkileşim riski vardır. Kanama riskini artırabilir. Lütfen doktorunuza danışın.”
 
 ## 🔍 Açık Veri Setleri  
-- [Drug-Drug Interaction Database (DDInter)](https://github.com/zzxslp/DDInter)  
-- [FDA Adverse Event Reporting System (FAERS)](https://www.fda.gov/drugs/fda-adverse-event-reporting-system-faers)
+- [Ilacprospektusu.com - İlaç Prospektüsü](/www.ilacprospektusu.com/ilac)  
 
 ## 🤖 Kullanılan Yapay Zekâ Teknikleri
 
